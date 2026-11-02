@@ -9,3 +9,7 @@ docker exec -it my_project_db psql -U student -d projectdb
 \dt
 SELECT * FROM users;
 SELECT * FROM orders;
+
+TO STOP:
+
+docker compose down
